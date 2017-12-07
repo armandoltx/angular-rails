@@ -11,6 +11,29 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var DocumentsComponent = (function () {
     function DocumentsComponent() {
+        this.documents = [
+            {
+                title: "Myfirst Doc",
+                description: "asdf;alsdkf;lasdkjf asdflkjas;dlkfj asdf",
+                file_url: 'http://armandoltx.com',
+                updated_at: '11/11/16',
+                image_url: 'http://www.fillmurray.com/g/300/300'
+            },
+            {
+                title: "My Second Doc",
+                description: "asdf;alsdkf;lasdkjf asdflkjas;dlkfj asdf",
+                file_url: 'http://marca.com',
+                updated_at: '11/12/16',
+                image_url: 'http://www.fillmurray.com/g/300/300'
+            },
+            {
+                title: "My Last Doc",
+                description: "asdf;alsdkf;lasdkjf asdflkjas;dlkfj asdf",
+                file_url: 'http://armandoltx.com',
+                updated_at: '11/11/16',
+                image_url: 'http://www.fillmurray.com/g/300/300'
+            }
+        ];
     }
     DocumentsComponent = __decorate([
         core_1.Component({
