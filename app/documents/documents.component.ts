@@ -6,6 +6,8 @@ import { Component } from '@angular/core';
 	templateUrl: 'documents.component.html'
 })
 export class DocumentsComponent {
+	pageTitle: string = "Document Dashboard"
+	
 	documents: Document[] = [
 		{
 			title: "Myfirst Doc",
