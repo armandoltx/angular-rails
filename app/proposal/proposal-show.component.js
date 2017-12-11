@@ -8,8 +8,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require('@angular/core'); //oninit to load things as soon as the app loads
-var router_1 = require('@angular/router'); // the ability to see the route for the proposal and the id
+var core_1 = require('@angular/core');
+var router_1 = require('@angular/router');
 var ProposalShowComponent = (function () {
     function ProposalShowComponent(route) {
         this.route = route;
@@ -17,7 +17,7 @@ var ProposalShowComponent = (function () {
     ProposalShowComponent.prototype.ngOnInit = function () {
         var _this = this;
         this.routeId = this.route.params.subscribe(function (params) {
-            _this.id = +params['id']; //the + converts the string into a number
+            _this.id = +params['id'];
         });
     };
     ProposalShowComponent = __decorate([
