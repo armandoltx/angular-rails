@@ -13,6 +13,7 @@ var proposal_1 = require('./proposal');
 var ProposalNewComponent = (function () {
     function ProposalNewComponent() {
         this.proposal = new proposal_1.Proposal; //It comes from the constructor
+        this.submitted = false; //to make the button dissapear when is submittedvthe form
     }
     ProposalNewComponent = __decorate([
         core_1.Component({
